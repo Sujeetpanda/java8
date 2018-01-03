@@ -1,0 +1,24 @@
+1) Lambda Expressions
+2) Funtional Interfaces (which contains a single abstract method)
+3) Default methods inside interfaces. To extend interface funtionality without affecting the implementation class
+4) Static methods inside interfaces.
+5) Predefined funtinal interfaces : Predicate<T> test,Funtion<T,R> apply,consumer<T> not return anything. method accept,Supplier<R> only returns method get()
+6) Method reference and constructor reference by using ::. This is alternative to lambda and used for code reusability
+7) Steams:
+
+			7.1) Purpose : To work with collections
+			7.2) Stream s = c.Stream(). // For creating stream
+			7.3) Filter(Predicate<T> t)
+			7.4) map(Function <T,R> f)
+			//For processing:
+
+			7.1.1) Collect
+			7.2.2) count()
+			7.3.3) sorted()
+			7.4.4) sorted(Comparator c)
+			7.5.5) min(Comparator c)
+			7.7.6) max(Comparator c)
+			7.7.7) forEach()
+			7.7.8) toArray()  //toArray(String[]::new)
+			7.7.9) Steam.of() //for non collection objects to collection objects
+8) Date and time API(Joda time ApI)
